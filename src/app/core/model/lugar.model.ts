@@ -1,3 +1,5 @@
 export interface LugarModel {
-  id: number;
+  nombre: string;
+  descripcion: string;
+  image: string;
 }

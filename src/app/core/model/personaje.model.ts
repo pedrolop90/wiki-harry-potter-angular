@@ -1,3 +1,6 @@
 export interface PersonajeModel {
-  id: number;
+  nombre: string;
+  descripcion: string;
+  image: string;
+  mensajeImagenAlt: string;
 }

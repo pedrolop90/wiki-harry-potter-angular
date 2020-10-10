@@ -1,1 +1,13 @@
-<p>listar-personajes works!</p>
+<div class="col-lg-12">
+  <br/>
+  <div class="card-columns">
+    <div class="card" style="width: 18rem" *ngFor="let persona of personajes;index as i">
+      <img [src]="persona.image" class="card-img-top img-fluid" [alt]="persona.mensajeImagenAlt">
+      <div class="card-body">
+        <h5 class="card-title">{{persona.nombre}}</h5>
+        <p class="card-text">{{persona.descripcion}}</p>
+        <a [routerLink]="['detalle',i]" class="btn btn-primary">ver mas detalle</a>
+      </div>
+    </div>
+  </div>
+</div>

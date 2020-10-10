@@ -6,7 +6,6 @@ import {ListarLugaresComponent} from './listar-lugares/listar-lugares.component'
 
 @NgModule({
   declarations: [ListarLugaresComponent],
-  exports: [ListarLugaresComponent],
   imports: [
     CommonModule,
     LugarRoutingModule
